@@ -7,15 +7,11 @@ body {
     text-decoration: none !important;
     cursor: pointer;
   }
-
-
-
 }
 
-
 .btn-primary {
-  background-color: #7C5C5C;
-  border-color: #7C5C5C;
+  background-color: #7c5c5c;
+  border-color: #7c5c5c;
 
   &:hover {
     background-color: $primary;
@@ -32,7 +28,6 @@ thead {
       width: 0;
     }
   }
-
 }
 
 .gary-bg {
@@ -68,10 +63,9 @@ thead {
   margin-right: 1em;
   margin-left: 1em;
   border-radius: 0.25em;
-  padding: .3em .5em;
+  padding: 0.3em 0.5em;
   font-weight: bold;
   letter-spacing: 0.1em;
-
 }
 
 .bg-papers-title {
@@ -101,8 +95,6 @@ thead {
   @include Large-size {
     background-color: $primary;
   }
-
-
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -134,7 +126,6 @@ thead {
     background-color: #e4dedb;
     //background-color: rgba(0, 0, 0, 0.06);
 
-
     &:hover {
       background-color: #edebe8; //rgba(0, 0, 0, 0.1);
     }
@@ -142,19 +133,18 @@ thead {
     @include Medium-size {
       padding: 0.5em 2em;
     }
-
   }
 
   .active {
     color: #fff !important;
-    background-color: #7C5C5C !important; // #565759 !important;
+    background-color: #7c5c5c !important; // #565759 !important;
     position: relative;
 
     &:after {
       display: none;
 
       @include Large-size {
-        content: '';
+        content: "";
         position: absolute;
         display: block;
         left: 50%;
@@ -164,9 +154,8 @@ thead {
         border-style: solid;
         border-width: 16px 14px 0 14px;
         //border-color: #555759 transparent transparent transparent;
-        border-color: #7C5C5C transparent transparent transparent;
+        border-color: #7c5c5c transparent transparent transparent;
       }
-
     }
   }
 }
@@ -177,7 +166,6 @@ thead {
   color: #fff;
   font-weight: bold;
   background-color: #6c5353;
-
 }
 
 .modal-header {
@@ -192,7 +180,6 @@ thead {
 .footer-bg {
   line-height: 1.8rem;
 }
-
 
 .table-title,
 .form-title {
@@ -314,7 +301,7 @@ thead {
   height: auto;
 
   @include Extra-large {
-    height: 50.000em;
+    height: 50em;
   }
 }
 
@@ -381,25 +368,23 @@ thead {
 
 .header-bg {
   display: none !important;
-  padding-bottom: 1.250em;
+  padding-bottom: 1.25em;
   padding-top: 0.938em;
 
   @include Large-size {
     display: block !important;
   }
 
-  background-image: url(../../../img/fido_header_bg.svg);
+  background-image: url(../img/fido_header_bg.svg);
   background-repeat: no-repeat;
-  background-size: auto 10.000em;
+  background-size: auto 10em;
   background-position-y: top;
   background-position: right;
 
   .logo-img {
     width: 16%;
     margin-right: 2%;
-
   }
-
 }
 
 .user-content {
@@ -529,7 +514,6 @@ thead {
 }
 
 .tbody-list {
-
   td {
     vertical-align: center;
   }
@@ -540,14 +524,11 @@ thead {
 
   tbody {
     padding: 1.5rem !important;
-
   }
 
   th {
     padding-right: 0.938em;
     padding-left: 0.938em;
-
-
   }
 
   th,
@@ -560,8 +541,6 @@ thead {
   .no-border {
     border: 0;
   }
-
-
 }
 
 .service-span-block {
@@ -579,7 +558,6 @@ thead {
 }
 
 .form-style {
-
   select {
     margin-bottom: 0.5rem;
   }
@@ -619,7 +597,7 @@ thead {
 
   label {
     margin-top: 0.5rem;
-    width: 6.250em;
+    width: 6.25em;
     text-align: right;
     margin-right: 0.5rem;
 
@@ -639,7 +617,7 @@ thead {
   @include Large-size {
     display: flex;
     justify-content: center;
-    height: 2.250em;
+    height: 2.25em;
   }
 
   @include Medium-size {
@@ -692,7 +670,6 @@ thead {
 }
 
 .comparison-bg {
-
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
   background-color: #fff;
   padding: 1em;
