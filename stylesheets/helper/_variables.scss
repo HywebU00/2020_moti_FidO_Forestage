@@ -42,8 +42,7 @@ $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 //newadd
 $dark-brown: #632f3e !default;
-$light-brown: #e5b0ae; //#d88d8b !default;
-
+$light-brown: #e5b0ae;
 $light-blue: #d5f2ff;
 $gary-blue: #c4d0dc;
 $ivory: #efe3d6 !default;
@@ -66,13 +65,13 @@ $colors: map-merge(("blue": $blue,
   ),
   $colors);
 
-$primary: $blue !default;
-$secondary: $gary-blue; //$light-blue; //$gray-600 !default;
+$primary: #55412d; //$blue !default;
+$secondary: #dedad9; //$gray-400 !default;
 $success: $green !default;
 $info: $gray-600; //$cyan !default;
 $warning: $yellow !default;
 $danger: $red !default;
-$light: $light-blue; //$ivory; // $gray-100 !default;
+$light: $ivory; //$light-blue; //$ivory; // $gray-100 !default;
 $dark: $gray-800 !default;
 
 $theme-colors: () !default;
