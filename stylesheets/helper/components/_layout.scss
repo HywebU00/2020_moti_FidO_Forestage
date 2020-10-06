@@ -10,12 +10,12 @@ body {
 }
 
 .btn-primary {
-  background-color: #7c5c5c;
-  border-color: #7c5c5c;
+  background-color: #6c5362; //#7c5c5c;
+  border-color: #6c5362; //#7c5c5c;
 
   &:hover {
-    background-color: $primary;
-    border-color: $primary;
+    background-color: #8f2b66;
+    border-color: #8f2b66;
   }
 }
 
@@ -137,7 +137,7 @@ thead {
 
   .active {
     color: #fff !important;
-    background-color: #7c5c5c !important; // #565759 !important;
+    background-color: #5d5d5d !important; // #565759 !important;
     position: relative;
 
     &:after {
@@ -153,8 +153,7 @@ thead {
         height: 0;
         border-style: solid;
         border-width: 16px 14px 0 14px;
-        //border-color: #555759 transparent transparent transparent;
-        border-color: #7c5c5c transparent transparent transparent;
+        border-color: #5d5d5d transparent transparent transparent;
       }
     }
   }
@@ -165,11 +164,11 @@ thead {
   letter-spacing: 0.1em;
   color: #fff;
   font-weight: bold;
-  background-color: #6c5353;
+  background-color: #6c5362;
 }
 
 .modal-header {
-  background-color: #6c5353 !important;
+  background-color: #6c5362 !important; // #6c5353 !important;
 }
 
 .footer-text {
@@ -455,7 +454,8 @@ thead {
   font-size: 1.3rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
-  text-align: center;
+  padding-bottom: 0.3em;
+  border-bottom: 0.08em solid #D7D7D8;
 
   @include Medium-size {
     font-size: 1.7rem;

@@ -1,0 +1,18 @@
+$back-primary:#8f2b66;
+
+.tandf-back-nav {
+    background-color: #e4dedb;
+
+    @include Large-size {
+        background-color: $back-primary;
+    }
+
+}
+
+.tandf-back-footer {
+    background-color: #e1dfdf;
+}
+
+.nodocument {
+    color: $back-primary;
+}

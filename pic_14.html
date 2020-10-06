@@ -43,8 +43,7 @@
       </div>
     </div>
   </header>
-  <nav
-    class="sticky-top navbar navbar-expand-lg navbar-light navbar-bg justify-content-center primary-nav shadow-sm ">
+  <nav class="sticky-top navbar navbar-expand-lg navbar-light navbar-bg justify-content-center primary-nav tandf-back-nav  shadow-sm ">
     <div class="container ">
       <div class="phone-title">
         <img src="img/Ministry-of-the-Interior-logo-sm.png" alt="">
@@ -65,7 +64,7 @@
             <a class="nav-link " href="#">審核作業</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#">審核管理</a>
+            <a class="nav-link" href="#">審核管理</a>
           </li>
           <li class="nav-item">
             <a class="nav-link " href="#">進度查詢</a>
@@ -378,7 +377,7 @@
                   </div>
                   <span class="list-title mt-3 ">審 核</span>
                   <div class="card-body card-table table-responsive">
-                    <form class="mt-3 form-style">
+                    <div class="mt-3 form-style">
                       <div class="form-group row form-border">
                         <label for="" class="col-sm-3 col-form-label form-title">
                           審核人</label>
@@ -414,275 +413,43 @@
                         <label class="col-sm-3 col-form-label form-title">
                           審核意見<span class="text-danger"> *</span></label>
                         <div class="col-sm-9">
-                          <textarea class="form-control" rows="6"></textarea>
-                           <div class="text-danger d-flex justify-content-between ">
-                            <span>至多可輸入4000個中英文字</span>
-                            <button href="#" class="btn btn-primary list-btn mb-4">查詞庫</button>
-                          </div>
+                          <form >
+                            <textarea class="form-control" rows="6"></textarea>
+                             <div class="text-danger d-flex justify-content-between ">
+                              <span>至多可輸入4000個中英文字</span>
+                              <button href="#" class="btn btn-primary list-btn mb-4">查詞庫</button>
+                            </div>
+                          </form>
                         </div>
                       </div>
                       <div class="form-group row form-border">
                         <label for="" class="col-sm-3 col-form-label form-title">
                           上傳檔案</label>
                         <div class="col-sm-9 d-flex justify-content-between row">
-                          <p class="col-12">未選擇檔案</p>
-                          <div class="col-12 mb-3 list-btn-group">
-                            <button type="button" class="btn btn-primary table-btn mr-1 ">瀏覽</button>
-                            <button type="button" class="btn btn-light table-btn mr-1 ">清除</button>
-                            <button type="button" class="btn btn-primary table-btn mr-1 ">＋</button>
-                          </div>
+                          <div>
+                            <p class="col-12 nodocument">未選擇檔案</p>
+                            <div class="col-12 mb-3 list-btn-group">
+                              <button type="button" class="btn btn-primary table-btn mr-1 ">瀏覽</button>
+                              <button type="button" class="btn btn-light table-btn mr-1 ">清除</button>
+                              <button type="button" class="btn btn-primary table-btn mr-1 ">＋</button>
+                            </div>
+                          </div>  
                         </div>
                       </div>
-                    </form>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- <div class="row pb-2 pt-2">
-              <div class="col-12 mt-2">
-                <div class="card shadow-sm ">
-                  <div class="card-header ">
-                    申請人資料
-                  </div>
-                  <div class="card-body card-table table-responsive ">
-                    <table class="table-style">
-                      <tbody class="">
-                        <tr class="row">
-                          <th for="" class="col-md-4 table-title">
-                            申請人姓名 <span class="text-danger"> *</span>
-                          </th>
-                          <td class="col-md-8 d-flex align-items-center">
-                            <span>呂毛尼</span>
-                          </td>
-                          <th for="" class="col-md-4 table-title">
-                            申請單位<span class="text-danger"> *</span>
-                          </th>
-                          <td class="col-md-8 d-flex align-items-center">
-                            <span>凌網科技</span>
-                          </td>
-                        </tr>
-                        <tr class="row">
-                          <th for="" class="col-md-4 table-title">
-                            聯絡電話<span class="text-danger"> *</span>
-                          </th>
-                          <td class="col-md-8 d-flex align-items-center ">
-                            <span>02-2933-2233</span>
-                          </td>
-                          <th for="" class="col-md-4 table-title">
-                            電子信箱<span class="text-danger"> *</span>
-                          </th>
-                          <td class="col-md-8 d-flex align-items-center ">
-                            <span>yida99121@yahoo.com.tw</span>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row pb-2 pt-2">
-              <div class="col-12 mt-2">
-                <div class="card shadow-sm ">
-                  <div class="card-header ">
-                    委外服務廠商資料
-                  </div>
-                  <div class="card-body card-table table-responsive">
-                    <table class="table-style">
-                      <tbody class="">
-                        <tr class="row">
-                          <th for="" class="col-md-4 table-title ">
-                            聯絡人
-                          </th>
-                          <td class="col-md-8 d-flex align-items-center ">
-                            <span>高寶尼</span>
-                          </td>
-                          <th for="" class="col-md-4 table-title">
-                            單位名稱
-                          </th>
-                          <td class="col-md-8 d-flex align-items-center">
-                            <span>凌網全球</span>
-                          </td>
-                        </tr>
-                        <tr class="row">
-                          <th for="" class="col-md-4 table-title ">
-                            聯絡電話
-                          </th>
-                          <td class="col-md-8 d-flex align-items-center">
-                            <span>02-2933-3399</span>
-                          </td>
-                          <th for="" class="col-md-4 table-title ">
-                            傳真
-                          </th>
-                          <td class="col-md-8 d-flex align-items-center ">
-                            <span></span>
-                          </td>
-                        </tr>
-                        <tr class="row">
-                          <th for="" class="col-md-4 table-title">
-                            電子信箱
-                          </th>
-                          <td class="col-md-8 d-flex align-items-center">
-                            <span>yida@yahoo.com.tw</span>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row pb-2 pt-2">
-              <div class="col-12 mt-2">
-                <div class="card shadow-sm ">
-                  <div class="card-header ">
-                    系統資訊
-                  </div>
-                  <div class="card-body card-table table-responsive">
-                    <table class="table-style">
-                      <tbody class="">
-                        <tr class="row">
-                          <th for="" class="col-md-5 table-title ">
-                            申請環境<span class="text-danger"> *</span>
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center ">
-                            <span>正式環境</span>
-                          </td>
-                          <th for="" class="col-md-5 table-title ">
-                            身分驗證雜湊值<span class="text-danger"> *</span>
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center ">
-                            <span>否</span>
-                          </td>
-                        </tr>
-                        <tr class="row">
-                          <th for="" class="col-md-5 table-title ">
-                            系統名稱<span class="text-danger"> *</span>
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center ">
-                            <span>測試系統</span>
-                          </td>
-                          <th for="" class="col-md-5 table-title ">
-                            服務名稱(中文)<span class="text-danger"> *</span>
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center ">
-                            <span></span>
-                          </td>
-                          <th for="" class="col-md-5 table-title ">
-                            服務名稱(英文)
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center">
-                            <span>TEST</span>
-                          </td>
-                          <th for="" class="col-md-5 table-title">
-                            服務名稱(英文簡稱)
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center ">
-                            <span>TS</span>
-                          </td>
-                        </tr>
-                        <tr class="row">
-                          <th for="" class="col-md-5 table-title ">
-                           申請介接服務方案<span class="text-danger"> *</span>
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center ">
-                            <span>應用系統網頁導頁至身分識別API服務</span>
-                          </td>
-                          <th for="" class="col-md-5 table-title ">
-                            服務類型API<span class="text-danger"> *</span>
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center">
-                            <span>RP-API-WEB-01,RP-API-FWEB-01,</span>
-                          </td>
-                          <th for="" class="col-md-5 table-title ">
-                            主機IP
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center">
-                            <span>191.1.11.111,192.2.22.222</span>
-                          </td>
-                          <th for="" class="col-md-5 table-title ">
-                            驗證成功導頁URL
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center ">
-                            <span>test@test.com.tw</span>
-                          </td>
-                          <th for="" class="col-md-5 table-title ">
-                            預計介接測試期間
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center ">
-                            <span></span>
-                          </td>
-                          <th for="" class="col-md-5 table-title">
-                            預計開放介接使用日期
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center ">
-                            <span>2020/08/10</span>
-                          </td>
-                          <th for="" class="col-md-5 table-title \ ">
-                           申請目的 <span class="text-danger"> *</span>
-                          </th>
-                          <td class="col-md-7 d-flex align-items-center">
-                            <span>提供給公司員工使用。</span>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row pb-2 pt-2">
-              <div class="col-12 mt-2">
-                <div class="card shadow-sm ">
-                  <div class="card-header ">
-                    審核
-                  </div>
-                  <div class="card-body card-table table-responsive">
-                    <form class="mt-3 form-style">
-                      <div class="form-group row form-border">
-                        <label for="" class="col-sm-3 col-form-label form-title">
-                          審核人</label>
-                        <div class="col-sm-9">
-                          <p>呂毛尼</p>
-                        </div>
-                      </div>
-                      <div class="form-group row form-border">
-                        <label class="col-sm-3 col-form-label form-title">
-                          審核意見<span class="text-danger"> *</span></label>
-                        <div class="col-sm-9">
-                          <textarea class="form-control" rows="6"></textarea>
-                           <div class="text-danger d-flex justify-content-between ">
-                            <span>至多可輸入4000個中英文字</span>
-                            <button href="#" class="btn btn-primary list-btn mb-4">查詞庫</button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-group row form-border">
-                        <label for="" class="col-sm-3 col-form-label form-title">
-                          上傳檔案</label>
-                        <div class="col-sm-9 d-flex justify-content-between row">
-                          <p class="col-12">未選擇檔案</p>
-                          <div class="col-12 mb-3 list-btn-group">
-                            <button type="button" class="btn btn-primary table-btn mr-1 ">瀏覽</button>
-                            <button type="button" class="btn btn-light table-btn mr-1 ">清除</button>
-                            <button type="button" class="btn btn-primary table-btn mr-1 ">＋</button>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
     </div>
   </div>
-  <footer class="bg-primary footer-bg p-4 ">
+  <footer class="tandf-back-footer footer-bg p-4 ">
     <div class="container">
       <div class="row">
-        <div class="col-md-7 mr-auto text-light mb-2 footer-text">
+        <div class="col-md-7 mr-auto mb-2 footer-text">
           地址：10482 臺北市中山區松江路469巷4號 電話：02-2513-2245</br>
           本網站適用Chrome 17.0、Firefox 10.0、IE9.0以上版本之瀏覽器</br>
           最佳解析度：1024 x 768 版權所有© 2020 Copyright MOI All Rights Reserved.

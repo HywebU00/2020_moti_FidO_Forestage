@@ -10819,13 +10819,13 @@ body a {
 }
 
 .btn-primary {
-  background-color: #7c5c5c;
-  border-color: #7c5c5c;
+  background-color: #6c5362;
+  border-color: #6c5362;
 }
 
 .btn-primary:hover {
-  background-color: #55412d;
-  border-color: #55412d;
+  background-color: #8f2b66;
+  border-color: #8f2b66;
 }
 
 thead span {
@@ -10948,7 +10948,7 @@ thead span {
 
 .nav-tag-btn .active {
   color: #fff !important;
-  background-color: #7c5c5c !important;
+  background-color: #5d5d5d !important;
   position: relative;
 }
 
@@ -10967,7 +10967,7 @@ thead span {
     height: 0;
     border-style: solid;
     border-width: 16px 14px 0 14px;
-    border-color: #7c5c5c transparent transparent transparent;
+    border-color: #5d5d5d transparent transparent transparent;
   }
 }
 
@@ -10976,11 +10976,11 @@ thead span {
   letter-spacing: 0.1em;
   color: #fff;
   font-weight: bold;
-  background-color: #6c5353;
+  background-color: #6c5362;
 }
 
 .modal-header {
-  background-color: #6c5353 !important;
+  background-color: #6c5362 !important;
 }
 
 .footer-text {
@@ -11304,7 +11304,8 @@ thead span {
   font-size: 1.3rem;
   font-weight: bold;
   letter-spacing: 0.1rem;
-  text-align: center;
+  padding-bottom: 0.3em;
+  border-bottom: 0.08em solid #D7D7D8;
 }
 
 @media (min-width: 48em) {
@@ -11539,87 +11540,21 @@ thead span {
           box-sizing: border-box;
 }
 
-.index-link-btn {
-  background-color: #1e62a3cc;
-  text-align: center;
-  color: #fff;
-  border-radius: 50%;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  width: 9.375em;
-  height: 9.375em;
-  cursor: pointer;
-  padding: 4% 2% 2% 2%;
-  margin: 0 3%;
-}
-
-@media (min-width: 36em) {
-  .index-link-btn {
-    width: 12.5em;
-    height: 12.5em;
-    letter-spacing: 0.1rem;
-    font-size: 1.1rem;
-  }
-}
-
-@media (min-width: 48em) {
-  .index-link-btn {
-    width: 12em;
-    height: 12em;
-    font-size: 1.4em;
-  }
-}
-
-.index-link-btn:hover {
-  background-color: #00817eba;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.mp-btn-content-bg {
-  background-image: url(../img/tgos_bg.jpg);
-  background-size: auto 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  margin-top: 2em;
-}
-
-@media (min-width: 75em) {
-  .mp-btn-content-bg {
-    margin-top: 0em;
-  }
-}
-
-.mp-btn-content-bg h2 {
-  padding-top: 8%;
-  font-size: 1.6rem;
-}
-
-@media (min-width: 48em) {
-  .mp-btn-content-bg h2 {
-    font-size: 2rem;
-  }
+.tandf-back-nav {
+  background-color: #e4dedb;
 }
 
 @media (min-width: 62em) {
-  .mp-btn-content-bg h2 {
-    padding-top: 3rem;
+  .tandf-back-nav {
+    background-color: #8f2b66;
   }
 }
 
-.btn-icon {
-  width: 30%;
+.tandf-back-footer {
+  background-color: #e1dfdf;
 }
 
-@media (min-width: 36em) {
-  .btn-icon {
-    padding-top: 10%;
-  }
-}
-
-@media (min-width: 48em) {
-  .btn-icon {
-    width: 35%;
-  }
+.nodocument {
+  color: #8f2b66;
 }
 /*# sourceMappingURL=all.css.map */
